@@ -1,6 +1,6 @@
 const paddle= document.getElementById("paddle");
 const ball = document.getElementById("ball");
-const xdir = true;
+let xdir = true;
 
 const paddleMove = (event) => {
   paddle.style.left = event.offsetX + "px";
